@@ -1,9 +1,9 @@
 # Site settings
-title_left    : "Think"
-title_right   : "space" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://heiswayi.github.io/thinkspace # site url
+title_left    : "Harriet Muir"
+title_right   : "" # default: ""
+description   : "Resumé"
+keywords      : "Harriet, Muir, Creative, Marketing, Thinker, Copy, Copy Writing, Writter"
+url           : https://harrietmuir.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
@@ -28,18 +28,18 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Harriet Muir"
 
 plugins:
-  - jekyll-sitemap
   - bourbon
   - jekyll-paginate
+#  - jekyll-sitemap
 
 # navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
+#navbar: 
+#  - slug : about 
+#    title: About
+#  - slug : blog
+#    title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script", "vendor"]
